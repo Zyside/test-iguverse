@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "test-iguverse",
+    "scheme": "demo",
     "slug": "test-iguverse",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,14 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.test.iguverse"
     },
     "android": {
+      "package": "com.test.iguverse",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "test.iguverse"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
