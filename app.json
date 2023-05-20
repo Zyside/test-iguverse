@@ -1,7 +1,6 @@
 {
   "expo": {
     "name": "test-iguverse",
-    "scheme": "demo",
     "slug": "test-iguverse",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -29,6 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "scheme": ["demo", "fb620879513319207"],
     "extra": {
       "eas": {
         "projectId": "6c57992b-154a-46dc-8725-43e5d2c001e1"

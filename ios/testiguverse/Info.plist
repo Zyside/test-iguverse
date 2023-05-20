@@ -26,6 +26,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>demo</string>
+          <string>fb620879513319207</string>
           <string>com.test.iguverse</string>
         </array>
       </dict>
